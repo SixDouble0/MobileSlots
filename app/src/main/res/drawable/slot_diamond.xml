@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Diamond shape -->
+    <path
+        android:fillColor="@color/casino_gold"
+        android:pathData="M50,10 L70,40 L50,90 L30,40 Z"/>
+    <path
+        android:fillColor="@android:color/white"
+        android:fillAlpha="0.3"
+        android:pathData="M50,10 L60,40 L50,70 L40,40 Z"/>
+</vector>

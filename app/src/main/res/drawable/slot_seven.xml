@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Number 7 -->
+    <path
+        android:fillColor="@color/roulette_red"
+        android:pathData="M30,20 L70,20 L70,30 L50,30 L40,80 L30,80 L45,30 L30,30 Z"
+        android:strokeWidth="2"
+        android:strokeColor="@color/casino_gold"/>
+</vector>

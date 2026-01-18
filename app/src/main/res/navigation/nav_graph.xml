@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mobileslots.ui.main.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_slots"
+            app:destination="@id/slotsFragment" />
+        <action
+            android:id="@+id/action_home_to_roulette"
+            app:destination="@id/rouletteFragment" />
+        <action
+            android:id="@+id/action_home_to_blackjack"
+            app:destination="@id/blackjackFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/slotsFragment"
+        android:name="com.mobileslots.ui.games.slots.SlotMachineFragment"
+        android:label="@string/slot_machine_title"
+        tools:layout="@layout/fragment_slot_machine" />
+
+    <fragment
+        android:id="@+id/rouletteFragment"
+        android:name="com.mobileslots.ui.games.roulette.RouletteFragment"
+        android:label="@string/roulette_title"
+        tools:layout="@layout/fragment_roulette" />
+
+    <fragment
+        android:id="@+id/blackjackFragment"
+        android:name="com.mobileslots.ui.games.blackjack.BlackjackFragment"
+        android:label="@string/blackjack_title"
+        tools:layout="@layout/fragment_blackjack" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.mobileslots.ui.profile.ProfileFragment"
+        android:label="@string/profile_title"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.mobileslots.ui.history.HistoryFragment"
+        android:label="@string/history_title"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.mobileslots.ui.settings.SettingsFragment"
+        android:label="@string/settings_title"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
