@@ -1,0 +1,123 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Mobile Slots</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Strona główna</string>
+    <string name="nav_slots">Automat</string>
+    <string name="nav_roulette">Ruletka</string>
+    <string name="nav_blackjack">Blackjack</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_history">Historia</string>
+    <string name="nav_settings">Ustawienia</string>
+    <string name="nav_achievements">Osiągnięcia</string>
+    
+    <!-- Menu -->
+    <string name="menu_search">Szukaj</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_about">O aplikacji</string>
+    
+    <!-- Common -->
+    <string name="balance">Saldo</string>
+    <string name="bet">Zakład</string>
+    <string name="spin">KRĘĆ</string>
+    <string name="play">GRAJ</string>
+    <string name="hit">DOBIERZ</string>
+    <string name="stand">PASUJ</string>
+    <string name="double_down">PODWÓJ</string>
+    <string name="deal">ROZDAJ</string>
+    <string name="cancel">Anuluj</string>
+    <string name="ok">OK</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    
+    <!-- Slot Machine -->
+    <string name="slot_machine_title">Automat do gier</string>
+    <string name="slot_bet_amount">Zakład: %d</string>
+    <string name="slot_win_message">Wygrałeś %d żetonów!</string>
+    <string name="slot_lose_message">Spróbuj ponownie!</string>
+    <string name="slot_shake_to_spin">Potrząśnij, aby zakręcić!</string>
+    
+    <!-- Roulette -->
+    <string name="roulette_title">Ruletka</string>
+    <string name="roulette_place_bet">Postaw zakład</string>
+    <string name="roulette_spin">Zakręć kołem</string>
+    <string name="roulette_red">Czerwone</string>
+    <string name="roulette_black">Czarne</string>
+    <string name="roulette_even">Parzyste</string>
+    <string name="roulette_odd">Nieparzyste</string>
+    <string name="roulette_result">Wynik: %d (%s)</string>
+    
+    <!-- Blackjack -->
+    <string name="blackjack_title">Blackjack</string>
+    <string name="blackjack_player_hand">Twoja ręka: %d</string>
+    <string name="blackjack_dealer_hand">Ręka krupiera: %d</string>
+    <string name="blackjack_win">Blackjack! Wygrałeś!</string>
+    <string name="blackjack_lose">Krupier wygrywa!</string>
+    <string name="blackjack_push">Remis!</string>
+    <string name="blackjack_bust">Przegrana!</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_username">Nazwa użytkownika</string>
+    <string name="profile_balance">Saldo: %d żetonów</string>
+    <string name="profile_games_played">Rozegranych gier: %d</string>
+    <string name="profile_total_wins">Wygrane: %d</string>
+    <string name="profile_total_losses">Przegrane: %d</string>
+    <string name="profile_win_rate">Współczynnik wygranych: %.1f%%</string>
+    <string name="profile_biggest_win">Największa wygrana: %d żetonów</string>
+    
+    <!-- History -->
+    <string name="history_title">Historia gier</string>
+    <string name="history_empty">Nie rozegrano jeszcze żadnej gry</string>
+    <string name="history_game_type">%s</string>
+    <string name="history_bet_amount">Zakład: %d</string>
+    <string name="history_win_amount">Wygrana: %d</string>
+    <string name="history_date">%s</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Ustawienia</string>
+    <string name="settings_sound">Efekty dźwiękowe</string>
+    <string name="settings_vibration">Wibracje</string>
+    <string name="settings_shake_to_spin">Potrząśnij, aby zakręcić</string>
+    <string name="settings_language">Język</string>
+    <string name="settings_reset_balance">Resetuj saldo</string>
+    <string name="settings_reset_confirmation">Czy na pewno chcesz zresetować saldo do 1000 żetonów?</string>
+    
+    <!-- Achievements -->
+    <string name="achievements_title">Osiągnięcia</string>
+    <string name="achievement_first_win">Pierwsza wygrana</string>
+    <string name="achievement_first_win_desc">Wygraj swoją pierwszą grę</string>
+    <string name="achievement_big_winner">Wielki zwycięzca</string>
+    <string name="achievement_big_winner_desc">Wygraj 1000 żetonów w jednej grze</string>
+    <string name="achievement_marathon">Maraton gracza</string>
+    <string name="achievement_marathon_desc">Zagraj 100 gier</string>
+    <string name="achievement_lucky_seven">Szczęśliwa siódemka</string>
+    <string name="achievement_lucky_seven_desc">Uzyskaj trzy siódemki w automacie</string>
+    <string name="achievement_blackjack_master">Mistrz Blackjacka</string>
+    <string name="achievement_blackjack_master_desc">Uzyskaj 5 blackjacków</string>
+    
+    <!-- Errors -->
+    <string name="error_insufficient_balance">Niewystarczające saldo</string>
+    <string name="error_network">Błąd sieci. Sprawdź połączenie.</string>
+    <string name="error_unknown">Wystąpił błąd. Spróbuj ponownie.</string>
+    <string name="error_min_bet">Minimalny zakład to %d żetonów</string>
+    <string name="error_max_bet">Maksymalny zakład to %d żetonów</string>
+    
+    <!-- Notifications -->
+    <string name="notification_big_win">Gratulacje!</string>
+    <string name="notification_big_win_message">Wygrałeś %d żetonów!</string>
+    <string name="notification_channel_name">Powiadomienia gry</string>
+    <string name="notification_channel_desc">Powiadomienia o dużych wygranych i osiągnięciach</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Szukaj gier…</string>
+    <string name="search_no_results">Nie znaleziono gier</string>
+    
+    <!-- Tutorial -->
+    <string name="tutorial_watch">Obejrzyj tutorial</string>
+    
+    <!-- About -->
+    <string name="about_version">Wersja %s</string>
+    <string name="about_description">Kompletne kasyno na twoim urządzeniu mobilnym</string>
+</resources>

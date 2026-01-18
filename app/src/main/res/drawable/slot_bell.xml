@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Bell shape -->
+    <path
+        android:fillColor="@color/casino_gold"
+        android:pathData="M50,20 Q30,20 30,35 L30,55 Q30,65 40,70 L40,75 Q40,80 50,80 Q60,80 60,75 L60,70 Q70,65 70,55 L70,35 Q70,20 50,20 Z"/>
+    <path
+        android:fillColor="@color/roulette_black"
+        android:pathData="M45,78 Q50,82 55,78 L55,75 L45,75 Z"/>
+</vector>

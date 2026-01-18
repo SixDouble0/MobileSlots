@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="md_theme_light_primary">#6200EE</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#EADDFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#21005E</color>
+    
+    <!-- Secondary Colors -->
+    <color name="md_theme_light_secondary">#03DAC6</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#A4F1E8</color>
+    <color name="md_theme_light_onSecondaryContainer">#001F1C</color>
+    
+    <!-- Tertiary Colors -->
+    <color name="md_theme_light_tertiary">#FF6F00</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#FFDDB3</color>
+    <color name="md_theme_light_onTertiaryContainer">#2B1700</color>
+    
+    <!-- Error Colors -->
+    <color name="md_theme_light_error">#B00020</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    
+    <!-- Background Colors -->
+    <color name="md_theme_light_background">#FFFBFF</color>
+    <color name="md_theme_light_onBackground">#1C1B1E</color>
+    <color name="md_theme_light_surface">#FFFBFF</color>
+    <color name="md_theme_light_onSurface">#1C1B1E</color>
+    <color name="md_theme_light_surfaceVariant">#E7E0EB</color>
+    <color name="md_theme_light_onSurfaceVariant">#49454E</color>
+    
+    <!-- Outline -->
+    <color name="md_theme_light_outline">#7A757F</color>
+    <color name="md_theme_light_outlineVariant">#CAC4CF</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#D0BCFF</color>
+    <color name="md_theme_dark_onPrimary">#381E72</color>
+    <color name="md_theme_dark_primaryContainer">#4F378A</color>
+    <color name="md_theme_dark_onPrimaryContainer">#EADDFF</color>
+    
+    <color name="md_theme_dark_secondary">#69F0E3</color>
+    <color name="md_theme_dark_onSecondary">#003731</color>
+    <color name="md_theme_dark_secondaryContainer">#005048</color>
+    <color name="md_theme_dark_onSecondaryContainer">#A4F1E8</color>
+    
+    <color name="md_theme_dark_tertiary">#FFB951</color>
+    <color name="md_theme_dark_onTertiary">#4A2800</color>
+    <color name="md_theme_dark_tertiaryContainer">#6A3C00</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FFDDB3</color>
+    
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    
+    <color name="md_theme_dark_background">#1C1B1E</color>
+    <color name="md_theme_dark_onBackground">#E6E1E6</color>
+    <color name="md_theme_dark_surface">#1C1B1E</color>
+    <color name="md_theme_dark_onSurface">#E6E1E6</color>
+    <color name="md_theme_dark_surfaceVariant">#49454E</color>
+    <color name="md_theme_dark_onSurfaceVariant">#CAC4CF</color>
+    
+    <color name="md_theme_dark_outline">#948F99</color>
+    <color name="md_theme_dark_outlineVariant">#49454E</color>
+    
+    <!-- Game Specific Colors -->
+    <color name="casino_green">#0B6623</color>
+    <color name="casino_red">#DC143C</color>
+    <color name="casino_gold">#FFD700</color>
+    <color name="casino_silver">#C0C0C0</color>
+    <color name="casino_bronze">#CD7F32</color>
+    
+    <!-- Roulette Colors -->
+    <color name="roulette_red">#E53935</color>
+    <color name="roulette_black">#212121</color>
+    <color name="roulette_green">#2E7D32</color>
+    
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="danger">#F44336</color>
+    <color name="info">#2196F3</color>
+</resources>

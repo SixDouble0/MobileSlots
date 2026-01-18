@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/slot_reel_size"
+        android:layout_height="@dimen/slot_reel_size"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <ImageView
+            android:layout_width="@dimen/slot_symbol_size"
+            android:layout_height="@dimen/slot_symbol_size"
+            android:layout_gravity="center"
+            android:contentDescription="@string/slot_machine_title"
+            android:src="@drawable/slot_cherry" />
+
+    </androidx.cardview.widget.CardView>
+
+</merge>
